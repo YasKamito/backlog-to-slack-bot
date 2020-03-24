@@ -1,0 +1,7 @@
+#BacklogAPIKey
+BACKLOG_APIKEY="<your_api_key>"
+#BacklogAPIで使用するProjectId
+BACKLOG_PROJECTID=<project_id>
+#BacklogAPIで使用するIssueTypeId
+BACKLOG_TYPEID=<issue_type_id>
+

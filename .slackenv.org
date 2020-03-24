@@ -1,0 +1,8 @@
+#postMessage用slack botユーザーのTOKEN
+WEBTOKEN="<bot_user_token>"
+#slack 送信チャンネル
+CHANNEL="#times_hoge"
+#slack 送信名
+BOTNAME=${BOTNAME:-"hoge-bot"}
+#slack アイコン
+FACEICON=${FACEICON:-":dragon:"}
