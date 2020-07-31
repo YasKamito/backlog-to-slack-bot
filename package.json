@@ -1,0 +1,22 @@
+{
+  "name": "slackwebhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "list-pull-requests.js",
+  "scripts": {
+    "start": "babel-node list-pull-requests.js --presets env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-p:YasKamito/backlog-to-slack-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "moment": "^2.24.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}

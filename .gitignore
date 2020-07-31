@@ -1,2 +1,3 @@
 .backlogenv
 .slackenv
+node_modules

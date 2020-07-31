@@ -1,0 +1,1700 @@
+
+> slackwebhook@1.0.0 start /Users/yaskamito/workspace/project/LogisticsWeb/slackwebhook
+> babel-node list-pull-requests.js --presets env "9d9aad51a3eb343d67bdab7c8570774b2405d078" "ardito-jp" "sb-scm-api" "2019-01-01 00:00:00 +9:00"
+
+ # sb-scm-api
+
+ # sb-scm-api
+
+ # sb-scm-api
+   - chore: 開発環境のlocal.settings.jsonを修正 (close:2020/03/11 09:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/682
+   - fix:LOGI-3901 上限件数超えの場合の対応方針変更 (close:2020/03/11 11:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/681
+   - Develop (close:2020/03/10 04:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/680
+   - SBLから依頼のあったDDLの追加 (close:2020/03/10 11:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/679
+   - DEV環境の設定ファイルを作成 (close:2020/03/10 10:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/678
+   - 商用環境の設定ファイルを暫定作成 (close:2020/03/10 10:48)
+     - https://github.com/ardito-jp/sb-scm-api/pull/677
+   - fix/LOGI-4508対応 (close:2020/03/10 03:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/674
+   - fix: 出荷取得API_レスポンス修正_在庫がシステム自動引当された場合、別行とするように修正 (close:2020/03/16 07:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/673
+   - fix:商品一括登録での商品取得箇所修正(性能改善) (close:2020/03/09 07:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/672
+   - Fix:LOGI-4437 同梱品（付属品、おまけなどのこと）はシステム対応が不要(#66) (close:2020/03/12 05:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/671
+   - Develop (close:2020/03/09 09:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/670
+   - Develop (close:2020/03/06 06:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/669
+   - Develop (close:2020/03/06 06:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/668
+   - fix:カスタマーサポート専用のRequestFilterを追加(脆弱性対応) (close:2020/03/09 01:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/666
+   - fix:商品登録/変更API(EIDON)関連チェック箇所性能改善 (close:2020/03/06 02:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/665
+   - モデルの定義が修正されていないため対応 (close:2020/03/06 02:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/664
+   - Develop (close:2020/03/06 12:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/663
+   - 内結環境のデータ取得上限を5000に変更 (close:2020/03/06 12:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/662
+   - fix:API077_商品登録/変更(EDION)性能改善,バリデーション箇所修正 (close:2020/03/06 12:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/661
+   - 商品取得時の大型識別フラグの指定州識別フラグの指定修正 (close:2020/03/05 05:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/660
+   - Develop (close:2020/03/05 05:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/659
+   - 400,500エラー時のレスポンスヘッダのcontent-typeを設定追加 (close:2020/03/05 04:43)
+     - https://github.com/ardito-jp/sb-scm-api/pull/658
+   - fix:商品登録/更新API(EDION)性能改善 (close:2020/03/05 04:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/657
+   - fix:LOGI-3901 上限件数超えの場合の対応方針変更 (close:2020/03/10 02:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/656
+   - Develop (close:2020/03/05 11:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/655
+   - fix: 配送キャパ引当モジュール最新化_0.0.17 (close:2020/03/05 11:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/654
+   - 商品検索条件の大型商品フラグを、全件orありのみとなるよう修正 (close:2020/03/05 11:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/653
+   - 出荷取得APIを修正 (close:2020/03/05 11:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/652
+   - Develop (close:2020/03/05 10:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/651
+   - 実績送信データに送信済みフラグが立たないデグレ対応 (close:2020/03/05 09:59)
+     - https://github.com/ardito-jp/sb-scm-api/pull/650
+   - Develop (close:2020/03/05 09:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/649
+   - feature/LOGI-4491 (close:2020/03/04 06:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/648
+   - Develop (close:2020/03/04 05:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/647
+   - Develop (close:2020/03/04 05:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/646
+   - Develop (close:2020/03/04 04:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/645
+   - fix: 配送キャパ引当モジュール最新化_0.0.16 (close:2020/03/04 04:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/644
+   - fix: 在庫ステータス変更取得API(荷主基幹/TP)_STバグ修正_レスポンスから共通カラムを削除 (close:2020/03/04 03:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/643
+   - feature/LOGI-4375 (close:2020/03/04 06:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/642
+   - fix:LOGI-4425_半角入力のバリデーションに半角カナも入力可能にする (close:2020/03/04 06:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/641
+   - 配送キャパ引当モジュール最新化_0.0.15 (#639) (close:2020/03/04 01:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/640
+   - fix: 配送キャパ引当モジュール最新化_0.0.15 (close:2020/03/04 01:44)
+     - https://github.com/ardito-jp/sb-scm-api/pull/639
+   - Develop (close:2020/03/04 10:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/638
+   - fix: 出荷指示API(EDION)_ロット賞味期限指定区分を修正 (close:2020/03/04 10:20)
+     - https://github.com/ardito-jp/sb-scm-api/pull/637
+   - パスワード変更時の前パスワードの比較をソルトがNULLの際行わないよう修正 (#634) (close:2020/03/04 09:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/636
+   - パスワード変更時の前パスワードの比較をソルトがNULLの際行わないよう修正 (#634) (close:2020/03/03 07:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/635
+   - パスワード変更時の前パスワードの比較をソルトがNULLの際行わないよう修正 (close:2020/03/03 07:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/634
+   - Develop (close:2020/03/03 06:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/633
+   - Develop (close:2020/03/03 06:15)
+     - https://github.com/ardito-jp/sb-scm-api/pull/632
+   - fix/ undifinedや空文字は設定されないため、nullのみ判定するように修正。 (close:2020/03/03 06:15)
+     - https://github.com/ardito-jp/sb-scm-api/pull/631
+   - fix:request_filterの脆弱性対応、戻し (close:2020/03/03 05:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/630
+   - Develop (close:2020/03/03 03:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/629
+   - Feature/logi 4434 (close:2020/03/03 06:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/628
+   - Develop (close:2020/03/03 03:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/627
+   - bugfix/ 特定の流通加工区分の場合に流通加工対象明細Noが荷主出荷指示明細Noに存在するかチェックする (close:2020/03/03 03:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/626
+   - fix 流通加工区分のチェック(出荷一括指示API) (#623) (close:2020/03/03 12:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/625
+   - Develop (close:2020/03/03 11:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/624
+   - fix/ 流通加工区分のチェック(出荷一括指示API) (close:2020/03/03 11:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/623
+   - fix:不要のためddl一行削除 (close:2020/03/16 02:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/622
+   - Develop (close:2020/03/03 10:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/621
+   - fix: 配送キャパ引当モジュール最新化_0.0.14 (close:2020/03/03 09:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/620
+   - fix:出荷取得API(EDION)性能改善対応 (close:2020/03/03 06:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/619
+   - feature/LOGI-4438 (close:2020/03/02 02:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/618
+   - Bugfix/asn get limit (close:2020/03/02 11:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/617
+   - Develop (close:2020/03/02 09:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/616
+   - 出荷キャンセルの実績が返却されない不具合対応 (close:2020/03/02 09:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/615
+   - bugfix/ 特定の流通加工区分の場合に流通加工対象明細Noの存在チェックを行うように修正 (close:2020/03/03 10:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/614
+   - fix:cs_rquest_filter (close:2020/02/28 08:22)
+     - https://github.com/ardito-jp/sb-scm-api/pull/613
+   - TODOの名称がつくインデックスの削除 (close:2020/03/02 07:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/612
+   - fix: 期間の検索条件のクエリ作成処理を他と合わせる (close:2020/02/28 06:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/610
+   - STP環境設定 (close:2020/02/28 12:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/609
+   - fix:在庫状況取得API性能改善対応 (close:2020/02/28 01:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/608
+   - fix: SCMコード体系の修正 (close:2020/02/28 12:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/607
+   - マスタ取得API お届け予定時間帯の区分値制御対応 (close:2020/03/02 07:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/606
+   - Feature/logi 4448 (close:2020/03/02 11:48)
+     - https://github.com/ardito-jp/sb-scm-api/pull/605
+   - Develop (close:2020/02/27 04:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/604
+   - bugfix: 出荷指示API(荷主基幹/TP)、出荷指示API(EDION)_システムテストバグ修正_バックオーダー可否フラグ修正 (close:2020/02/27 01:43)
+     - https://github.com/ardito-jp/sb-scm-api/pull/603
+   - バックオーダー引当ジョブエラーハンドリング時の処理起動対応 (close:2020/02/27 01:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/602
+   - Feature/edion asn delete skip condition (close:2020/02/27 01:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/601
+   - Fix/LOGI-4428 (close:2020/02/27 02:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/599
+   - Fix:LOGI-4435 危険物、航空便、医療管理機器フラグについて(#63) (close:2020/02/26 04:13)
+     - https://github.com/ardito-jp/sb-scm-api/pull/598
+   - リクエストログからrawbodyが出力されないよう対応 (close:2020/02/26 03:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/597
+   - Fix/logi 4426 (close:2020/02/26 04:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/596
+   - fix: 流通加工明細Noのチェック処理について_出荷指示API(EDION,TP)の修正 (close:2020/03/03 10:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/595
+   - Develop (close:2020/02/26 12:03)
+     - https://github.com/ardito-jp/sb-scm-api/pull/594
+   - bugfix: 配送キャパ引数のお届け日時任意フラグを、バックオーダー以外falseへ修正 (close:2020/02/26 12:03)
+     - https://github.com/ardito-jp/sb-scm-api/pull/593
+   - ログ制御処理(ログレベル単位) (sb-scm-inventory-utils.0.1.4の反映時には上記もマージ対象) (close:2020/02/27 11:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/592
+   - Develop (close:2020/02/26 09:59)
+     - https://github.com/ardito-jp/sb-scm-api/pull/591
+   - Develop (close:2020/02/26 09:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/590
+   - fix: 配送キャパ引当モジュール最新化_0.0.12 (close:2020/02/26 09:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/589
+   - fix:LOGI-4346,LOGI-4377_EDION出荷指示とステ変指示のバリデーション、在庫引当修正/LOGI-4402_入荷区分マスタの追加 (close:2020/03/02 06:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/588
+   - 外向け在庫取得APIのレスポンスのheaderを配列に変更 (#584) (close:2020/02/25 05:43)
+     - https://github.com/ardito-jp/sb-scm-api/pull/587
+   - 外向け在庫取得APIのレスポンスのheaderを配列に変更 (#584) (close:2020/02/25 05:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/586
+   - Fix/LOGI-4364 (close:2020/02/25 05:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/585
+   - fix: 外向け在庫取得APIのレスポンスのheaderを配列に変更 (close:2020/02/25 03:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/584
+
+ # sb-scm-api
+   - EDION個別要件。商品登録・更新を同一リクエストで行えるよう対応 (close:2020/03/31 03:22)
+     - https://github.com/ardito-jp/sb-scm-api/pull/783
+   - アプリケーション設定のSTORE_PORTAL_URLを設定（jwtのissuerの設定） (close:2020/03/30 06:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/781
+   - Yahoo関連の設定追加及び不要な設定の削除 (close:2020/03/30 05:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/780
+   - feat:LOGI-4446_良品の返品出荷 (close:2020/03/31 03:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/779
+   - Ver1.0.0 (close:2020/03/27 03:49)
+     - https://github.com/ardito-jp/sb-scm-api/pull/777
+   - 在庫引当/確認モジュール最新化対応（機能は変えてない。商用リリースに伴いバージョンを1.0.0に変更しただけ） (close:2020/03/27 03:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/776
+   - Develop (close:2020/03/27 02:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/775
+   - 荷主出荷指示明細Noの修正対応 (close:2020/03/27 09:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/774
+   - 使用されなくなった設定を削除 (close:2020/03/26 08:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/773
+   - 配送キャパ引当モジュール最新化_1.0.0 (#770) (close:2020/03/26 07:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/772
+   - bugfix:logi-4587 (close:2020/03/26 07:49)
+     - https://github.com/ardito-jp/sb-scm-api/pull/771
+   - fix: 配送キャパ引当モジュール最新化_1.0.0 (close:2020/03/26 07:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/770
+   - Develop (close:2020/03/26 06:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/768
+   - Develop (close:2020/03/26 05:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/767
+   - Develop (close:2020/03/26 05:44)
+     - https://github.com/ardito-jp/sb-scm-api/pull/766
+   - LOGI-4585対応 (close:2020/03/26 05:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/765
+   - 商用環境のシークレット値の変更に伴う修正 (close:2020/03/25 08:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/764
+   - 出荷取得API 流通加工区分の返却追加 (close:2020/03/25 06:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/762
+   - Python3.5対応（Azure Cloud Shell利用のため） (close:2020/03/25 04:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/761
+   - feat:LOGI-4567_出荷照会_検索条件の運送会社コードを出荷指示から取得するように修正 (close:2020/03/25 04:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/760
+   - パスワード再発行API メールアドレスの重複対応 (#757) (close:2020/03/25 12:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/759
+   - パスワード再発行API メールアドレスの重複対応 (#757) (close:2020/03/25 12:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/758
+   - パスワード再発行API メールアドレスの重複対応 (close:2020/03/25 10:20)
+     - https://github.com/ardito-jp/sb-scm-api/pull/757
+   - Logi 4415 (#747) (close:2020/03/24 08:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/756
+   - Logi 4415 (#747) (close:2020/03/24 08:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/755
+   - Develop (close:2020/03/24 08:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/754
+   - Develop (close:2020/03/24 07:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/753
+   - Develop (close:2020/03/24 06:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/752
+   - fix:LOGI-4568_一括登録で空文字またはunderfinedが受け取られた場合、nullに変換するように修正 (close:2020/03/24 05:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/751
+   - fix:現在SCMで設定されている値に修正 (close:2020/03/24 06:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/750
+   - EDION入荷業務終了時に、複数実績明細があり指示のステータスの実績が存在する場合、ゼロ実績が作られてしまっていた為種しまっていた為修正 … (close:2020/03/24 04:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/749
+   - fix: EDION入荷業務終了時のゼロ実績修正 (close:2020/03/24 03:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/748
+   - Logi 4415 (close:2020/03/24 08:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/747
+   - Develop (close:2020/03/23 06:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/746
+   - Develop (close:2020/03/23 05:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/745
+   - Develop (close:2020/03/23 05:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/744
+   - 配送キャパ引当モジュール最新化_0.0.18 (close:2020/03/23 05:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/743
+   - 内製T要望のDDL追加 (close:2020/03/23 05:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/742
+   - ログインIDのユニークキー追加 (close:2020/03/23 03:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/741
+   - Develop (close:2020/03/19 05:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/740
+   - fix: エラーメッセージリストと実装の差異を修正_LOGI-4476 (close:2020/03/19 07:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/739
+   - fix:LOGI-4564_エラーメッセージのレスポンス形式修正 (close:2020/03/19 07:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/738
+   - fix: SBLから依頼のあったDDLの追加 (close:2020/03/19 02:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/737
+   - fix: 出荷取得API_性能改善対応のマージ漏れを修正 (close:2020/03/19 02:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/736
+   - Functionsのタイムアウトを10分に変更（従量課金プランでは10分が最大値のため） (close:2020/03/19 12:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/735
+   - bugfix:LOGI-4560_変更前パスワード入力エラーのレスポンス形式修正 (close:2020/03/19 11:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/734
+   - chore: dev環境のhost.jsonにfunctionTimeoutを設定 (#732) (close:2020/03/19 11:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/733
+   - fix: dev環境のhost.jsonにfunctionTimeoutを設定 (close:2020/03/19 11:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/732
+   - Develop (close:2020/03/19 10:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/731
+   - fix:LOGI-4504_提供品一括登録_有効期限の重複チェックで、同一親の場合は、エラーとならないように修正 (#729) (close:2020/03/18 07:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/730
+   - fix:LOGI-4504_提供品一括登録_有効期限の重複チェックで、同一親の場合は、エラーとならないように修正 (close:2020/03/18 07:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/729
+   - fix: 出荷登録の時の商品存在判定を修正 (#726) (close:2020/03/18 06:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/728
+   - Fix/edion asn cancel actual (#724) (close:2020/03/18 04:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/727
+   - fix: 出荷登録の時の商品存在判定を修正 (close:2020/03/18 06:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/726
+   - Fix/edion asn cancel actual (#724) (close:2020/03/18 03:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/725
+   - Fix/edion asn cancel actual (close:2020/03/18 02:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/724
+   - Develop (close:2020/03/18 11:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/723
+   - Develop (close:2020/03/17 06:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/722
+   - Yahoo環境設定追加 (close:2020/03/17 06:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/721
+   - fix: 出荷指示API(EDION)、引当取消API、マスタ取得API修正_荷主と運送会社テーブルの取得修正 (close:2020/03/19 11:15)
+     - https://github.com/ardito-jp/sb-scm-api/pull/720
+   - 出荷取得API 商品IDの検索変更 (close:2020/03/17 06:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/719
+   - Develop (close:2020/03/17 05:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/718
+   - EDION入荷予定 移動入荷/一時保管倉庫入荷取消時に指示在庫ステータスのゼロ実績を作るよう対応 (close:2020/03/17 04:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/717
+   - Develop (close:2020/03/17 03:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/716
+   - API_ERROR_MSG_205 から API_ERROR_MSG_208　に修正 (close:2020/03/17 05:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/715
+   - Develop (close:2020/03/16 07:59)
+     - https://github.com/ardito-jp/sb-scm-api/pull/714
+   - Develop (close:2020/03/16 07:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/713
+   - Develop (close:2020/03/16 06:44)
+     - https://github.com/ardito-jp/sb-scm-api/pull/712
+   - SBLから依頼のあったDDL対応 (close:2020/03/16 06:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/711
+   - fix:LOGI-4528 [API044] 配送キャパ引当でエラー発生後　再実行するとテーブルがロックされている (close:2020/03/17 03:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/710
+   - 性能改善対応 (close:2020/03/17 03:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/709
+   - 商用環境設定ファイルにSendGridのAPIキーを追加 (close:2020/03/16 04:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/708
+   - 性能改善INDEX追加 (close:2020/03/16 09:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/707
+   - 暗号化キーをTST環境と同じものに変更 (close:2020/03/13 09:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/706
+   - Develop (close:2020/03/13 07:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/705
+   - Develop (close:2020/03/13 07:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/704
+   - Develop (close:2020/03/13 07:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/703
+   - feat:LOGI-4419#60_お急ぎ便を指定できなくする対応(通常、一括)。出荷照会画面で、お急ぎ便を指定できる対応 (close:2020/03/17 04:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/702
+   - fix: 出荷一括指示API_お届け予定日が0000-00-00で登録されないように修正 (close:2020/03/13 05:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/701
+   - fix/LOGI-4416,4418対応(セット品親の項目設定と連携のタイミング) (close:2020/03/17 05:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/700
+   - fix: 出荷指示系API、バックオーダー引当JOB修正_セット品親に引当済数を設定 (close:2020/03/19 11:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/699
+   - Develop (close:2020/03/12 07:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/698
+   - feat:LOGI-4437 同梱品（付属品、おまけなどのこと）はシステム対応が不要のため削除(#66) (#671) (close:2020/03/12 07:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/697
+   - fix:LOGI-4419_出荷指示にて、お急ぎ便を指定できなくする(EDION,荷主基幹TP) (close:2020/03/13 05:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/696
+   - Develop (close:2020/03/12 04:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/695
+   - fix: 入荷一括登録の仕入単価追加 (close:2020/03/16 04:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/694
+   - Develop (close:2020/03/12 01:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/693
+   - 荷主基幹向け在庫調整取得APIのレスポンスが設計書と異なる件対応 (close:2020/03/12 11:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/692
+   - fix:LOGI-4516 荷主が荷主取得APIで全検索ができてしまう (close:2020/03/12 02:59)
+     - https://github.com/ardito-jp/sb-scm-api/pull/691
+   - ECSストアが0件の場合、detailに空配列を設定するよう修正 (close:2020/03/12 11:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/690
+   - タイムアウト値を削除 (close:2020/03/11 05:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/689
+   - EDION入荷予定更新で削除時にWMS連携フラグをリセットしていない件、対応 (close:2020/03/11 05:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/688
+   - Feature/logi 4490 (close:2020/03/12 02:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/687
+   - YAHOO環境の設定ファイルを作成 (close:2020/03/11 05:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/686
+   - fix:商品登録/変更API(EDION)性能改善(クエリ) (close:2020/03/11 08:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/685
+   - fix: ゼロ実績処理の追加要件対応 (close:2020/03/11 06:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/684
+   - fix:LOGI-4504_提供品一括登録/変更時の重複チェックに有効期限を追加。CSV内の重複チェックを追加。 (close:2020/03/17 03:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/683
+
+ # sb-scm-api
+   - fix : ユーザー請求送料取得API attributesによる出力項目の制限 (close:2020/01/29 03:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/482
+   - ECSストアテーブルにECSストア電話番号追加 (close:2020/01/29 02:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/481
+   - Develop (close:2020/01/29 01:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/480
+   - fix: ユーザー請求送料一括登録API CSVファイル内重複チェックの追加および登録済データを登録できない不具合を修正 (close:2020/01/29 04:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/479
+   - LOGI-4225(CSV改行コード)対応 (close:2020/01/29 11:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/478
+   - 'n行目:' 廃止。error.field.lineNumber に修正 (close:2020/01/28 10:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/477
+   - Develop (close:2020/01/27 05:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/476
+   - Feature/azure mod (close:2020/01/27 05:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/475
+   - chore: 内部結合環境用設定にSendGridを追加 (#472) (close:2020/01/27 04:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/474
+   - Develop (close:2020/01/27 03:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/473
+   - fix: 内部結合環境用設定にSendGridを追加 (close:2020/01/27 04:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/472
+   - LOGI-4220対応 (close:2020/01/27 02:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/471
+   - Develop (close:2020/01/27 01:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/470
+   - fix: 倉庫テーブル FQDN/サブスクリプションキー削除のため対応 (close:2020/01/27 12:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/469
+   - shipmentLineActualIdが出力されない不具合改修 (close:2020/01/27 12:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/468
+   - 出荷元コードのスペル修正 (close:2020/01/27 12:03)
+     - https://github.com/ardito-jp/sb-scm-api/pull/467
+   - 存在しない都道府県コードをバリデーションエラーとする (close:2020/01/27 11:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/466
+   - LOGI-4194対応 (close:2020/01/27 10:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/465
+   - ST環境用configの作成 (close:2020/01/24 07:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/464
+   - 荷主基幹在庫取得の差分取得対応(追加要件) (close:2020/01/24 06:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/463
+   - Develop (close:2020/01/24 06:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/462
+   - 在庫取得のリクエストボディのheaderをオブジェクトから配列に変更対応 (close:2020/01/24 06:11)
+     - https://github.com/ardito-jp/sb-scm-api/pull/461
+   - Develop (close:2020/01/24 05:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/460
+   - attributesによる出力項目の制限 (close:2020/01/27 11:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/459
+   - fix: ユーザー請求送料の市町村テーブルの結合を外部結合に修正 (close:2020/01/24 05:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/458
+   - テーブル結合元を倉庫から倉庫と荷主に変更 (close:2020/01/24 05:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/457
+   - fix: 配送キャパ引当モジュールの引数修正 (close:2020/01/24 04:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/456
+   - Develop (close:2020/01/24 10:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/455
+   - fix: 提供品一括登録API 提供品区分物理名を設計書に合わせて修正 (close:2020/01/24 09:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/454
+   - Fix:LOGI_3851-在庫管理方法のバリデーションチェック統一 (close:2020/01/29 09:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/453
+   - chore: 在庫確認/引当モジュール_修正モジュール配置(0.1.3) (close:2020/01/24 10:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/452
+   - ログアウトAPI不要によるYahooトークン保持処理削除 (close:2020/01/23 05:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/448
+   - LOGI-4144対応 (close:2020/01/23 05:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/447
+   - Develop (close:2020/01/23 10:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/445
+   - fix: 在庫ステータス変更で複数件の際変更前在庫IDが同値になる件対応 (#443) (close:2020/01/22 07:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/444
+   - 在庫ステータス変更で複数件の際変更前在庫IDが同値になる件対応 (close:2020/01/22 07:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/443
+   - Develop (close:2020/01/22 05:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/442
+   - ロットNoなどが空文字でinsertされる。ステータスが不正値を修正 (close:2020/01/22 05:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/441
+   - feat: 荷主ステータス変更指示No型、桁数変更対応 (#427) (close:2020/01/22 04:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/440
+   - Develop (close:2020/01/22 04:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/439
+   - 出荷指示で任意項目の倉庫コードを指定しない場合エラーになる件対応 (close:2020/01/22 04:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/438
+   - 業務終了未実施の倉庫に対する返却を追加 (close:2020/01/22 04:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/437
+   - fix: 入荷取り消しの時には関連チェックをスキップするように修正 (close:2020/01/22 03:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/436
+   - 400エラーの際にレスポンスログを出力するよう修正 (#434) (close:2020/01/22 02:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/435
+   - 400エラーの際にレスポンスログを出力するよう修正 (close:2020/01/22 02:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/434
+   - Develop (close:2020/01/22 01:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/433
+   - IF項目定義書とAPI設計書・実装の差異修正 (close:2020/01/22 01:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/432
+   - Develop (close:2020/01/22 11:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/431
+   - feat: APIのリクエスト上限の設定を定数で持つように修正 (close:2020/01/22 11:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/430
+   - feat: 入荷予定明細テーブル 仕切り単価データ型変更DDL追加 (close:2020/01/24 10:03)
+     - https://github.com/ardito-jp/sb-scm-api/pull/429
+   - Develop (close:2020/01/22 10:20)
+     - https://github.com/ardito-jp/sb-scm-api/pull/428
+   - 荷主ステータス変更指示No型、桁数変更対応 (close:2020/01/22 04:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/427
+   - CSユーザー取得API CSトップ画面における業務終了情報の設定処理追加 (close:2020/01/21 06:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/426
+   - fix: 配送キャパ引当モジュールの呼び出し修正_shareのスタブを呼ぶように修正 (close:2020/01/21 04:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/425
+   - Feature/azure deploy (close:2020/01/21 12:43)
+     - https://github.com/ardito-jp/sb-scm-api/pull/424
+   - Develop (close:2020/01/21 09:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/423
+   - LOGI-3904対応 (close:2020/01/20 06:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/422
+   - fix: 出荷指示系_横展開修正 (close:2020/01/20 06:22)
+     - https://github.com/ardito-jp/sb-scm-api/pull/421
+   - bugfix 出荷指示API(荷主基幹／TP) (close:2020/01/20 05:22)
+     - https://github.com/ardito-jp/sb-scm-api/pull/420
+   - fix: 提供品一括登録API 同一ヘッダで複数明細が存在する場合別ヘッダでインサートされる不具合を修正 (close:2020/01/20 05:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/419
+   - セキュリティ項目ログ出力抑制対応(XML) (close:2020/01/20 05:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/418
+   - 追加要件対応。荷主入荷予定Noの型をbigint→varchar(50)へ変更 (close:2020/01/20 01:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/417
+   - LOGI-4120対応 (close:2020/01/20 11:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/416
+   - fix: 出荷指示API_バグ修正_バリデーション対象追加 (close:2020/01/20 11:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/415
+   - LOGI-4118対応 (close:2020/01/17 07:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/414
+   - メールアドレス更新API実装 (close:2020/01/17 12:49)
+     - https://github.com/ardito-jp/sb-scm-api/pull/413
+   - fix: 配送キャパ引当モジュール取込(0.0.7) (close:2020/01/17 10:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/412
+   - Fix:LOGI3850_在庫管理方法のバリデーションチェック/LOGI3457_パラメータ型変更 (close:2020/01/17 09:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/411
+   - トークン再発行の有効期限算出処理対応／トークン項目不足対応／認可処理必須対応 (close:2020/01/17 09:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/409
+   - 入庫テーブルにルート識別コード、出荷元コード追加 (close:2020/01/16 05:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/408
+   - feat: Feature/shipment put tp (close:2020/01/16 05:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/407
+   - セット親商品提供品ID設定対応／流通加工判定対応／行番号対応 (close:2020/01/16 12:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/406
+   - Bugfix 出荷指示API(EDION)_単体バグ修正 (close:2020/01/15 06:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/405
+   - API064_YahooID連携トークン取得API (close:2020/01/15 06:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/404
+   - LOGI-4034対応 (close:2020/01/15 06:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/403
+   - LOGI-3908荷主基幹の在庫取得で荷主SKUコードの指定を任意に変更 (close:2020/01/15 05:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/402
+   - メールアドレスに全角(英字以外のUTF8)を許容しないよう修正 (close:2020/01/15 07:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/401
+   - bugfix: 出荷指示API(EDION)_バリデーションチェック追加 (close:2020/01/15 01:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/400
+   - Develop (close:2020/01/15 11:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/399
+   - 外結バグ対応。出荷元コードのスペルをIF項目定義書に合わせ修正 (#397) (close:2020/01/15 11:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/398
+   - 外結バグ対応。出荷元コードのスペルをIF項目定義書に合わせ修正 (close:2020/01/15 11:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/397
+   - fix: 出荷取得API モール情報未設定の出荷情報が取得できない不具合を修正 (close:2020/01/15 11:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/396
+   - ロールバックがされない不具合改修 (close:2020/01/15 11:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/395
+   - Develop (close:2020/01/15 10:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/394
+   - 荷主コードのバリデーションを、半角英数8~8桁で統一するよう修正 (close:2020/01/15 10:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/393
+   - Develop (close:2020/01/14 08:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/392
+   - fix: 引当取消API 引当対象が検索できない不具合を修正 (close:2020/01/14 08:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/391
+   - Develop (close:2020/01/14 08:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/390
+   - JSON形式チェックが通るよう修正 (close:2020/01/14 08:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/389
+   - LOGI-3845、LOGI-3980、LOGI-3995、LOGI-3996、LOGI-4022、在庫管理方法相関チェック追加対応 (close:2020/01/14 03:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/388
+   - Develop (close:2020/01/14 02:35)
+     - https://github.com/ardito-jp/sb-scm-api/pull/387
+   - Fix/tp linenumber (close:2020/01/14 03:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/386
+   - fix: 出荷指示/出荷一括指示/出荷取得API 項目定義を共通で利用できるよう修正 (close:2020/01/14 02:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/385
+   - fix: 出荷取得API 明細情報生成で荷主出荷指示明細No分の配列ではなく荷主出荷指示明細No毎の配列を生成するように修正 (#383) (close:2020/01/10 08:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/384
+   - fix: 出荷取得API 明細情報生成荷主出荷指示明細No毎の配列を生成しまとめる処理に修正 (close:2020/01/10 08:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/383
+
+ # sb-scm-api
+   - 外部結合環境用設定ファイル追加 (close:2019/12/18 07:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/282
+   - 入荷予定登録/変更API(EDION)  製造対応 (close:2019/12/19 02:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/281
+   - bugfix LOGI-3749 [商品照会(詳細)_ブラウザ互換] 荷主名が表示されない (close:2019/12/18 07:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/280
+   - fix: 出荷指示API_複数登録対応 (close:2019/12/18 07:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/279
+   - Bugfix:API044 出荷指示API 単体試験バリデーションバグ修正 bugfix/shipment_post (close:2019/12/18 04:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/278
+   - bugfix API065 社内ユーザー取得API 単体バグ (close:2019/12/18 06:13)
+     - https://github.com/ardito-jp/sb-scm-api/pull/277
+   - 30000文字ごとにログ出力を分割するように修正 (close:2019/12/18 02:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/275
+   - 請求送料一括登録実装 (close:2019/12/19 02:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/274
+   - bugfix LOGI-3692 API056 ロールテーブルの削除フラグがONの場合でも検索される (close:2019/12/18 04:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/273
+   - API089_入荷予定登録/変更API(荷主基幹・TP) 製造対応 (close:2019/12/19 09:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/272
+   - LOGI-3684対応 fix/asn_put (close:2019/12/18 09:43)
+     - https://github.com/ardito-jp/sb-scm-api/pull/271
+   - Fix/在庫ステータス変更取得API_レスポンス項目の追加 (close:2019/12/17 05:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/270
+   - LOGI-3614 商品一括登録 ECS関連の情報が条件必須ではなく必須になっている (close:2019/12/17 02:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/269
+   - ユーザー請求送料一括登録_枠作成、単項目バリデーションチェック作成 (close:2019/12/17 10:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/268
+   - bugfix 荷主基幹/TP送信済フラグ 定数化 (close:2019/12/17 11:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/267
+   - Fix/master response reducer (close:2019/12/16 05:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/266
+   - Bugfix:API098_業務終了用API_単体テストバグ修正 (close:2019/12/18 05:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/265
+   - ライブラリのバージョン固定（yarn.lockの作成） (close:2019/12/16 04:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/264
+   - LOGI-3639 [商品_シナリオ番号:1_項番:6] 流通加工区分のプルダウン選択で値が表示されない (close:2019/12/16 03:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/263
+   - Fix/packages api (close:2019/12/18 04:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/262
+   - Develop (close:2019/12/16 02:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/261
+   - 暗号化キーの更新に伴う設定ファイルの修正 (close:2019/12/16 02:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/260
+   - LOGI-3633 [商品_シナリオ番号:23_項番:1] 実績再送できない (close:2019/12/16 03:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/259
+   - 設定ファイルの修正（パスワード更新時の一時利用トークンに利用する鍵の追加） (close:2019/12/16 02:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/258
+   - 自動テストの設定を修正 (close:2019/12/16 11:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/257
+   - API043 出荷一括指示API 追加 feature/shipments_csv (close:2019/12/17 07:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/256
+   - ログイン認証関連設定値追加 (close:2019/12/16 09:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/255
+   - Bugfix LOGI-3614 商品一括登録 ECS関連の情報が条件必須ではなく必須になっている (close:2019/12/16 09:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/254
+   - LOGI-3518対応 (close:2019/12/13 04:59)
+     - https://github.com/ardito-jp/sb-scm-api/pull/253
+   - package.jsonのsequelizeのバージョン修正、モジュール修正 (close:2019/12/13 04:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/252
+   - LOGI-3523バグ対応 (close:2019/12/13 12:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/251
+   - LOGI-3626バグ対応 (close:2019/12/13 12:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/250
+   - LOGI-3597内部結合バグ修正 (close:2019/12/13 10:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/249
+   - LOGI-3538内部結合バグ修正 (close:2019/12/13 09:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/248
+   - 賞味期限が設定されていない場合にNULLで登録されない対応 (close:2019/12/13 04:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/247
+   - LOGI-3554内決バグ修正 (close:2019/12/12 06:20)
+     - https://github.com/ardito-jp/sb-scm-api/pull/246
+   - LOGI-3549内決バグ修正 (close:2019/12/12 06:03)
+     - https://github.com/ardito-jp/sb-scm-api/pull/245
+   - Bugfix/merchantget (close:2019/12/13 09:35)
+     - https://github.com/ardito-jp/sb-scm-api/pull/244
+   - fix: エラーレスポンスの項目名揺れ修正 (close:2019/12/12 02:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/243
+   - 取消された入荷予定情報の取得対応(LOGI-3608) (close:2019/12/12 02:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/242
+   - Develop_merge (close:2019/12/12 11:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/241
+   - Fix/merchant get in index (close:2019/12/12 10:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/240
+   - パスワード関連対応(LOGI-2805,LOGI-2806,LOGI-2807) (close:2019/12/13 04:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/239
+   - 荷主明細テーブル分割対応 (close:2019/12/12 09:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/238
+   - 出荷テーブル_送付元住所2をNULL許可に修正 (close:2019/12/12 10:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/237
+   - fix LOGI-3582 [API010] CSVのエラーコードが、"code":"E001"になっている (close:2019/12/12 10:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/236
+   - feature:API098_業務終了用API_実装 (close:2019/12/12 02:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/235
+   - 在庫ステータス変更一括指示API　バリデーション処理実装 (close:2019/12/12 01:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/234
+   - API046 ユーザー請求送料取得API (close:2019/12/11 12:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/233
+   - CSV履歴取得実装 (close:2019/12/11 10:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/232
+   - Bugfix API076 商品取得API(EDION) (close:2019/12/11 10:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/231
+   - APIテスト環境用の設定ファイルを追加 (close:2019/12/10 02:59)
+     - https://github.com/ardito-jp/sb-scm-api/pull/230
+   - CSVアップのステータスを修正。csvUtilから不要なメソッドを削除 (close:2019/12/11 10:15)
+     - https://github.com/ardito-jp/sb-scm-api/pull/229
+   - Bugfix API086 商品取得API(荷主基幹／TP) (close:2019/12/11 10:13)
+     - https://github.com/ardito-jp/sb-scm-api/pull/228
+   - API044 出荷指示API 追加 Feature/shipment instructions (close:2019/12/11 07:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/226
+   - API050 FAQ取得APIの削除 (close:2019/12/09 09:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/225
+   - 配送キャパ引当/解除モジュール追加 (close:2019/12/10 02:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/224
+   - eslint対応 (close:2019/12/10 02:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/223
+   - ユーザー取得デフォルトの表示項目取得時に表示項目IDが返却されないため修正 (close:2019/12/09 05:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/222
+   - 在庫ステータス変更一括登録API新規作成 (close:2019/12/09 04:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/221
+   - LOGI-3414バグ対応 (close:2019/12/09 02:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/220
+   - bugfix:API009_表示項目API_単体テストバグ修正 (close:2019/12/09 11:43)
+     - https://github.com/ardito-jp/sb-scm-api/pull/219
+   - API043 出荷一括指示API 単項目バリデート迄 (close:2019/12/09 11:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/218
+   - 環境変数の修正（内部結合環境のアクセストークン用の秘密鍵と公開鍵） (close:2019/12/06 09:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/217
+   - lint: エラー解消 (close:2019/12/09 09:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/216
+   - npmモジュール追加対応 (close:2019/12/06 07:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/215
+   - 荷主ユーザー取得に荷主名を追加 (close:2019/12/06 06:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/214
+   - fix: 設定ファイル修正 (#212) (close:2019/12/06 06:11)
+     - https://github.com/ardito-jp/sb-scm-api/pull/213
+   - fix: 設定ファイル修正 (close:2019/12/06 06:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/212
+   - Develop_merge (close:2019/12/06 05:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/211
+   - Fix/shipment get time period (close:2019/12/06 05:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/210
+   - fix: it-internal 設定ファイル web urlを追加 (close:2019/12/06 05:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/209
+   - Develop_merge (close:2019/12/06 04:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/208
+   - fix: keyVaultの環境変数値を修正 (close:2019/12/06 04:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/207
+   - LOGI-3444バグ修正 (close:2019/12/06 03:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/206
+   - ログ出力にログ種類を追加。引当取消APIのurlを修正 (close:2019/12/06 07:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/205
+   - おまとめ出荷の取得時はECS指定出荷箱サイズを返却するよう修正 (close:2019/12/06 01:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/204
+   - url修正 (close:2019/12/06 11:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/203
+   - 開発用の認証認可スキップ、テストユーザ設定を復活 (close:2019/12/06 10:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/202
+   - fix: 荷主ユーザー取得APIの不具合修正 (close:2019/12/06 09:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/201
+   - Fix/remove set dev data (close:2019/12/05 03:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/200
+   - 入荷予定変更API 製造対応 Feature/asn_put (close:2019/12/06 11:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/198
+   - 認証のアクセストークンに使用する秘密鍵と公開鍵を環境変数に（Key Vault管理に）修正 (close:2019/12/04 09:03)
+     - https://github.com/ardito-jp/sb-scm-api/pull/197
+   - lint: prettierの改行設定を変更 (close:2019/12/04 08:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/196
+   - Chore/code master in filter (close:2019/12/04 08:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/195
+   - Bugfix LOGI-3349 [API008] 取得件数の上限超過判定がされない (close:2019/12/04 07:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/194
+   - chore: eslintの設定を修正 (close:2019/12/04 06:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/193
+   - ヘルスチェック用のAPIを作成 (close:2019/12/04 04:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/192
+   - Bugfix 商品系API (close:2019/12/04 05:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/191
+   - Fix/auth user ger (close:2019/12/04 06:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/190
+   - API076 商品取得API(EDION) 新規登録 (close:2019/12/04 10:48)
+     - https://github.com/ardito-jp/sb-scm-api/pull/189
+   - LOGI-3366、LOGI-3369、共通設計対応 (close:2019/12/04 10:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/188
+   - API009_表示項目登録API_実装 (close:2019/12/04 10:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/187
+   - bugfix:API037在庫ステータス変更指示API　Bugfix/bugfixInventoryStatusChangePostバグ改修 (close:2019/12/03 04:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/186
+   - ログインAPIなどの認証処理が不要な場合は認可と荷主存在判定をスキップするよう修正 (close:2019/12/03 02:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/185
+   - 荷主取得API実装 (close:2019/12/03 02:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/184
+   - 引当取消API_バグ修正 (close:2019/12/03 07:11)
+     - https://github.com/ardito-jp/sb-scm-api/pull/183
+
+ # sb-scm-api
+   - 内部結合環境用のconfigを追加 (close:2019/12/02 09:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/182
+   - fix:API037在庫ステータス変更指示API　Bugfix/fix inventory status change post　修正 (close:2019/12/02 06:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/181
+   - 内部疎通確認環境のDBパスワードをKeyVault管理に変更 (close:2019/12/02 05:22)
+     - https://github.com/ardito-jp/sb-scm-api/pull/180
+   - API086 商品取得API(荷主基幹／TP) 新規登録 (close:2019/12/02 06:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/179
+   - 不要な項目を削除 (close:2019/12/02 03:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/178
+   - API075_出荷取得(EDION)実装 (close:2019/12/02 03:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/177
+   - SKUコードマスタ取得テーブルを修正 (close:2019/12/02 03:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/176
+   - API094_出荷取得(荷主基幹TP)実装 (close:2019/12/02 01:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/174
+   - マスタカテゴリID44,45を削除 (close:2019/12/02 01:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/173
+   - コンパイルエラー対応 (close:2019/11/30 04:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/172
+   - API073_在庫状況取得API(EDION)_単体バグ修正 (close:2019/12/02 06:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/171
+   - API037_在庫ステータス変更指示　feature/inventoryStatusChangePost (close:2019/12/02 12:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/170
+   - 出荷明細テーブルの箱番号、ECS指定箱番号のNOT NULL制約を削除 (close:2019/11/29 07:35)
+     - https://github.com/ardito-jp/sb-scm-api/pull/169
+   - LOGI-3349 [API008] 取得件数の上限超過判定がされない (close:2019/11/29 07:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/168
+   - 認証後にコードマスタ値を保持する。登録者、更新者表示名対応。 (close:2019/11/29 07:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/167
+   - Bugfix API008 商品取得API (close:2019/11/29 02:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/166
+   - マスタカテゴリID43のレスポンス生成処理を修正 (close:2019/11/29 02:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/165
+   - 入荷予定登録API (close:2019/11/29 02:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/164
+   - Bugfix/shipment get (close:2019/11/29 10:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/162
+   - マスタ取得API追加対応 (close:2019/11/28 06:35)
+     - https://github.com/ardito-jp/sb-scm-api/pull/161
+   - durableの各関数名をユニークとなるよう変更 (close:2019/11/28 03:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/160
+   - function.jsonのrouteを修正 (close:2019/11/28 11:44)
+     - https://github.com/ardito-jp/sb-scm-api/pull/159
+   - function.jsonのrouteを変更 (close:2019/11/28 11:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/158
+   - config内のファイルを追加、修正 (close:2019/11/28 10:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/157
+   - LOGI-3301対応 (close:2019/11/28 03:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/156
+   - フォルダ構成変更に伴う設定ファイルの修正 (close:2019/11/27 07:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/155
+   - 暗号化対象カラムの文字数変更 (close:2019/11/28 02:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/154
+   - fix:API072在庫ステータス変更指示API(EDION) bugfix/inventoryStatusChangeEdionPost バグ改修 (close:2019/11/29 03:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/153
+   - フォルダ構成の変更 (close:2019/11/27 05:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/152
+   - API073 在庫状況取得API(EDION) 実装 (close:2019/11/29 03:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/151
+   - API008 商品取得API (close:2019/11/28 01:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/150
+   - configフォルダの構成を変更（環境ごとにフォルダを作成するように変更） (close:2019/11/27 04:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/149
+   - 社内ユーザーのログインAPIを作成 (close:2019/11/27 11:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/148
+   - API090 在庫状況取得API(荷主基幹/TP) 実装 (close:2019/11/29 07:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/147
+   - お知らせ更新APIのデプロイ設定を追加 (close:2019/11/26 07:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/146
+   - Feature/integration check (close:2019/11/26 07:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/145
+   - マスタ取得APIを修正 (close:2019/11/27 10:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/143
+   - 内部利用API追加（暗号/複合） (close:2019/11/26 05:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/142
+   - 内部利用APIの修正（暗号/複合APIのボディに鍵を追加） (close:2019/11/26 04:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/141
+   - 内部利用APIと荷主ユーザーログインAPIの作成 (close:2019/11/26 03:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/140
+   - 出荷明細実績テーブルのFK修正 (close:2019/11/27 10:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/139
+   - ログ出力時間のフォーマットを固定化 (close:2019/11/26 03:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/138
+   - LOGI-3294対応、#48の修正内容再適用 (close:2019/11/26 02:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/137
+   - DB項目の暗号化用のシークレット対応 (close:2019/11/25 06:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/136
+   - LOGI-3278,3284,3285対応 (close:2019/11/25 07:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/135
+   - 開発用AES鍵定数名変更 (close:2019/11/25 01:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/134
+   - 実績再送状況更新API新規作成 (close:2019/11/26 03:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/133
+   - 在庫状況取得API 荷主SKUコードの必須バリデートを任意に修正 (close:2019/11/22 06:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/132
+   - API072在庫ステータス変更指示API(EDION) feature/inventoryStatusChangeEdionPost (close:2019/11/22 08:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/131
+   - LOGI-3278、LOGI-3279、単体試験項目書レビュー対応 Feature/asn csv review (close:2019/11/22 07:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/130
+   - fix: API013 商品更新API (close:2019/11/22 04:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/129
+   - 出荷取得 削除済み項目の反映 (close:2019/11/22 02:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/128
+   - fix:API087 商品登録／更新API(荷主基幹／TP) (close:2019/11/22 02:43)
+     - https://github.com/ardito-jp/sb-scm-api/pull/127
+   - Feature/cancel inventory allocation (close:2019/11/22 04:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/126
+   - Feature/integration check (close:2019/11/22 12:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/125
+   - 個人情報暗号化対象外カラム反映 (close:2019/11/22 12:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/124
+   - マスタカテゴリIDに1〜42以外の値を設定した場合のエラー処理を修正 (close:2019/11/22 11:15)
+     - https://github.com/ardito-jp/sb-scm-api/pull/123
+   - serverless.ymlのmaster設定のrouteを修正 (close:2019/11/22 10:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/122
+   - クエリパラメータの区切り文字を変更 (close:2019/11/21 08:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/121
+   - Fix/encryption ddl3 (close:2019/11/21 07:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/120
+   - 個人情報暗号化対象の最小文字数を255に統一 (close:2019/11/21 07:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/119
+   - API010 商品一括登録API Bugfix/product csv (close:2019/11/21 07:59)
+     - https://github.com/ardito-jp/sb-scm-api/pull/118
+   - Fix:在庫状況取得(API027)_function.jsonコミット漏れの為追加 (close:2019/11/21 07:44)
+     - https://github.com/ardito-jp/sb-scm-api/pull/117
+   - Application Insightsの設定を追加 (close:2019/11/21 08:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/116
+   - Fix/encryption (close:2019/11/21 05:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/115
+   - 上限超過判定エラーレスポンスにステータスコードを追加 (close:2019/11/21 09:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/114
+   - API070 提供品一括登録API バグ修正 (close:2019/11/21 09:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/113
+   - （内部限定利用の）パスワード生成APIの作成 (close:2019/11/21 05:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/112
+   - Fix/encryption (close:2019/11/21 05:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/111
+   - 個人情報暗号化対象カラム再検討結果の反映 (close:2019/11/21 06:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/110
+   - API018 入荷予定一括登録API (close:2019/11/21 06:49)
+     - https://github.com/ardito-jp/sb-scm-api/pull/109
+   - 上限超過判定エラー時のステータスコードが漏れていたため修正 (close:2019/11/21 06:03)
+     - https://github.com/ardito-jp/sb-scm-api/pull/108
+   - FAQ取得API移植 (close:2019/11/21 03:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/107
+   - エラーメッセージの設計書との差分修正 (close:2019/11/21 11:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/106
+   - API077 商品登録／更新API(EDION) Bugfix/products edion (close:2019/11/21 10:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/105
+   - fix:在庫ステータス変更指示API(荷主基幹/TP)　Bugfix/inventoryStautsChangeMerchantTpPost 単体テストバグ改修 (close:2019/11/22 10:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/104
+   - API087 商品登録／更新API(荷主基幹／TP) Bugfix/products merchant tp (close:2019/11/21 06:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/103
+   - 内部疎通確認環境のステージ名を修正 (close:2019/11/20 11:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/102
+   - 特定の環境の場合は認証と認可をスキップするように修正 (close:2019/11/20 11:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/101
+   - 実績の検索条件指定時に、対象外の明細データが返却される件対応 (close:2019/11/21 09:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/100
+   - 入荷取得API条件同時指定対応(LOGI-3221) (close:2019/11/20 12:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/99
+   - bugfix/attachments 提供品取得APIバグ修正 (close:2019/11/19 09:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/98
+   - 在庫ステータス変更実績明細マスタレスポンス整形処理修正  (close:2019/11/20 10:22)
+     - https://github.com/ardito-jp/sb-scm-api/pull/97
+   - Fix/validation number (close:2019/11/19 09:15)
+     - https://github.com/ardito-jp/sb-scm-api/pull/96
+   - Bugfix/master functions (close:2019/11/19 08:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/94
+   - Feature/shipment get (close:2019/11/19 08:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/93
+   - DBから取得した日付、時間のフォーマット処理を修正 (close:2019/11/19 04:49)
+     - https://github.com/ardito-jp/sb-scm-api/pull/92
+   - 不足していたUNIQUE制約追加。商品のLaasSKUコードにUNIQUE制約追加 (close:2019/11/19 01:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/91
+   - 荷主ID検索必須化対応(LOGI-3203) (close:2019/11/19 12:13)
+     - https://github.com/ardito-jp/sb-scm-api/pull/90
+   - fix:API093_在庫調整取得(荷主基幹/TP)API_bugfix/inventoryAdjustmentMerchantTpFunctions_単体テストバグ改修 (close:2019/11/19 12:11)
+     - https://github.com/ardito-jp/sb-scm-api/pull/89
+   - 数値型表現可能範囲チェックの削除(LOGI-3197) (close:2019/11/18 09:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/88
+   - 重複import削除 (close:2019/11/18 08:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/87
+   - DDLの作成 (close:2019/11/18 08:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/86
+   - PostmanによるAPIテストの環境準備 (close:2019/11/18 08:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/85
+   - fix:API027_在庫状況取得API_bugfix/inventoryGetStockListFunctions_単体テストバグ改修 (close:2019/11/19 03:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/84
+   - chore: プロジェクト全体でビルドさせるためにエラー箇所をコメントアウト (close:2019/11/18 08:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/83
+
+ # sb-scm-api
+   - EDION個別要件。商品登録・更新を同一リクエストで行えるよう対応 (close:2020/03/31 03:22)
+     - https://github.com/ardito-jp/sb-scm-api/pull/783
+   - アプリケーション設定のSTORE_PORTAL_URLを設定（jwtのissuerの設定） (close:2020/03/30 06:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/781
+   - Yahoo関連の設定追加及び不要な設定の削除 (close:2020/03/30 05:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/780
+   - feat:LOGI-4446_良品の返品出荷 (close:2020/03/31 03:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/779
+   - Ver1.0.0 (close:2020/03/27 03:49)
+     - https://github.com/ardito-jp/sb-scm-api/pull/777
+   - 在庫引当/確認モジュール最新化対応（機能は変えてない。商用リリースに伴いバージョンを1.0.0に変更しただけ） (close:2020/03/27 03:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/776
+   - Develop (close:2020/03/27 02:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/775
+   - 荷主出荷指示明細Noの修正対応 (close:2020/03/27 09:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/774
+   - 使用されなくなった設定を削除 (close:2020/03/26 08:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/773
+   - 配送キャパ引当モジュール最新化_1.0.0 (#770) (close:2020/03/26 07:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/772
+   - bugfix:logi-4587 (close:2020/03/26 07:49)
+     - https://github.com/ardito-jp/sb-scm-api/pull/771
+   - fix: 配送キャパ引当モジュール最新化_1.0.0 (close:2020/03/26 07:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/770
+   - Develop (close:2020/03/26 06:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/768
+   - Develop (close:2020/03/26 05:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/767
+   - Develop (close:2020/03/26 05:44)
+     - https://github.com/ardito-jp/sb-scm-api/pull/766
+   - LOGI-4585対応 (close:2020/03/26 05:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/765
+   - 商用環境のシークレット値の変更に伴う修正 (close:2020/03/25 08:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/764
+   - 出荷取得API 流通加工区分の返却追加 (close:2020/03/25 06:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/762
+   - Python3.5対応（Azure Cloud Shell利用のため） (close:2020/03/25 04:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/761
+   - feat:LOGI-4567_出荷照会_検索条件の運送会社コードを出荷指示から取得するように修正 (close:2020/03/25 04:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/760
+   - パスワード再発行API メールアドレスの重複対応 (#757) (close:2020/03/25 12:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/759
+   - パスワード再発行API メールアドレスの重複対応 (#757) (close:2020/03/25 12:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/758
+   - パスワード再発行API メールアドレスの重複対応 (close:2020/03/25 10:20)
+     - https://github.com/ardito-jp/sb-scm-api/pull/757
+   - Logi 4415 (#747) (close:2020/03/24 08:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/756
+   - Logi 4415 (#747) (close:2020/03/24 08:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/755
+   - Develop (close:2020/03/24 08:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/754
+   - Develop (close:2020/03/24 07:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/753
+   - Develop (close:2020/03/24 06:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/752
+   - fix:LOGI-4568_一括登録で空文字またはunderfinedが受け取られた場合、nullに変換するように修正 (close:2020/03/24 05:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/751
+   - fix:現在SCMで設定されている値に修正 (close:2020/03/24 06:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/750
+   - EDION入荷業務終了時に、複数実績明細があり指示のステータスの実績が存在する場合、ゼロ実績が作られてしまっていた為種しまっていた為修正 … (close:2020/03/24 04:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/749
+   - fix: EDION入荷業務終了時のゼロ実績修正 (close:2020/03/24 03:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/748
+   - Logi 4415 (close:2020/03/24 08:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/747
+   - Develop (close:2020/03/23 06:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/746
+   - Develop (close:2020/03/23 05:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/745
+   - Develop (close:2020/03/23 05:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/744
+   - 配送キャパ引当モジュール最新化_0.0.18 (close:2020/03/23 05:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/743
+   - 内製T要望のDDL追加 (close:2020/03/23 05:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/742
+   - ログインIDのユニークキー追加 (close:2020/03/23 03:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/741
+   - Develop (close:2020/03/19 05:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/740
+   - fix: エラーメッセージリストと実装の差異を修正_LOGI-4476 (close:2020/03/19 07:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/739
+   - fix:LOGI-4564_エラーメッセージのレスポンス形式修正 (close:2020/03/19 07:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/738
+   - fix: SBLから依頼のあったDDLの追加 (close:2020/03/19 02:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/737
+   - fix: 出荷取得API_性能改善対応のマージ漏れを修正 (close:2020/03/19 02:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/736
+   - Functionsのタイムアウトを10分に変更（従量課金プランでは10分が最大値のため） (close:2020/03/19 12:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/735
+   - bugfix:LOGI-4560_変更前パスワード入力エラーのレスポンス形式修正 (close:2020/03/19 11:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/734
+   - chore: dev環境のhost.jsonにfunctionTimeoutを設定 (#732) (close:2020/03/19 11:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/733
+   - fix: dev環境のhost.jsonにfunctionTimeoutを設定 (close:2020/03/19 11:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/732
+   - Develop (close:2020/03/19 10:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/731
+   - fix:LOGI-4504_提供品一括登録_有効期限の重複チェックで、同一親の場合は、エラーとならないように修正 (#729) (close:2020/03/18 07:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/730
+   - fix:LOGI-4504_提供品一括登録_有効期限の重複チェックで、同一親の場合は、エラーとならないように修正 (close:2020/03/18 07:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/729
+   - fix: 出荷登録の時の商品存在判定を修正 (#726) (close:2020/03/18 06:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/728
+   - Fix/edion asn cancel actual (#724) (close:2020/03/18 04:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/727
+   - fix: 出荷登録の時の商品存在判定を修正 (close:2020/03/18 06:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/726
+   - Fix/edion asn cancel actual (#724) (close:2020/03/18 03:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/725
+   - Fix/edion asn cancel actual (close:2020/03/18 02:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/724
+   - Develop (close:2020/03/18 11:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/723
+   - Develop (close:2020/03/17 06:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/722
+   - Yahoo環境設定追加 (close:2020/03/17 06:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/721
+   - fix: 出荷指示API(EDION)、引当取消API、マスタ取得API修正_荷主と運送会社テーブルの取得修正 (close:2020/03/19 11:15)
+     - https://github.com/ardito-jp/sb-scm-api/pull/720
+   - 出荷取得API 商品IDの検索変更 (close:2020/03/17 06:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/719
+   - Develop (close:2020/03/17 05:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/718
+   - EDION入荷予定 移動入荷/一時保管倉庫入荷取消時に指示在庫ステータスのゼロ実績を作るよう対応 (close:2020/03/17 04:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/717
+   - Develop (close:2020/03/17 03:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/716
+   - API_ERROR_MSG_205 から API_ERROR_MSG_208　に修正 (close:2020/03/17 05:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/715
+   - Develop (close:2020/03/16 07:59)
+     - https://github.com/ardito-jp/sb-scm-api/pull/714
+   - Develop (close:2020/03/16 07:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/713
+   - Develop (close:2020/03/16 06:44)
+     - https://github.com/ardito-jp/sb-scm-api/pull/712
+   - SBLから依頼のあったDDL対応 (close:2020/03/16 06:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/711
+   - fix:LOGI-4528 [API044] 配送キャパ引当でエラー発生後　再実行するとテーブルがロックされている (close:2020/03/17 03:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/710
+   - 性能改善対応 (close:2020/03/17 03:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/709
+   - 商用環境設定ファイルにSendGridのAPIキーを追加 (close:2020/03/16 04:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/708
+   - 性能改善INDEX追加 (close:2020/03/16 09:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/707
+   - 暗号化キーをTST環境と同じものに変更 (close:2020/03/13 09:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/706
+   - Develop (close:2020/03/13 07:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/705
+   - Develop (close:2020/03/13 07:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/704
+   - Develop (close:2020/03/13 07:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/703
+   - feat:LOGI-4419#60_お急ぎ便を指定できなくする対応(通常、一括)。出荷照会画面で、お急ぎ便を指定できる対応 (close:2020/03/17 04:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/702
+   - fix: 出荷一括指示API_お届け予定日が0000-00-00で登録されないように修正 (close:2020/03/13 05:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/701
+   - fix/LOGI-4416,4418対応(セット品親の項目設定と連携のタイミング) (close:2020/03/17 05:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/700
+   - fix: 出荷指示系API、バックオーダー引当JOB修正_セット品親に引当済数を設定 (close:2020/03/19 11:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/699
+   - Develop (close:2020/03/12 07:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/698
+   - feat:LOGI-4437 同梱品（付属品、おまけなどのこと）はシステム対応が不要のため削除(#66) (#671) (close:2020/03/12 07:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/697
+   - fix:LOGI-4419_出荷指示にて、お急ぎ便を指定できなくする(EDION,荷主基幹TP) (close:2020/03/13 05:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/696
+   - Develop (close:2020/03/12 04:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/695
+   - fix: 入荷一括登録の仕入単価追加 (close:2020/03/16 04:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/694
+   - Develop (close:2020/03/12 01:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/693
+   - 荷主基幹向け在庫調整取得APIのレスポンスが設計書と異なる件対応 (close:2020/03/12 11:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/692
+   - fix:LOGI-4516 荷主が荷主取得APIで全検索ができてしまう (close:2020/03/12 02:59)
+     - https://github.com/ardito-jp/sb-scm-api/pull/691
+   - ECSストアが0件の場合、detailに空配列を設定するよう修正 (close:2020/03/12 11:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/690
+   - タイムアウト値を削除 (close:2020/03/11 05:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/689
+   - EDION入荷予定更新で削除時にWMS連携フラグをリセットしていない件、対応 (close:2020/03/11 05:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/688
+   - Feature/logi 4490 (close:2020/03/12 02:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/687
+   - YAHOO環境の設定ファイルを作成 (close:2020/03/11 05:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/686
+   - fix:商品登録/変更API(EDION)性能改善(クエリ) (close:2020/03/11 08:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/685
+   - fix: ゼロ実績処理の追加要件対応 (close:2020/03/11 06:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/684
+   - fix:LOGI-4504_提供品一括登録/変更時の重複チェックに有効期限を追加。CSV内の重複チェックを追加。 (close:2020/03/17 03:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/683
+
+ # sb-scm-api
+   - fix: 流通加工明細Noのチェック処理について(出荷指示API) (close:2020/02/26 10:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/582
+   - Develop (close:2020/02/21 05:44)
+     - https://github.com/ardito-jp/sb-scm-api/pull/581
+   - Develop (close:2020/02/21 05:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/580
+   - fix: 配送キャパ引当モジュール最新化_0.0.11 (close:2020/02/21 05:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/579
+   - bugfix:LOGI-4381_入荷照会の入荷区分バリデーションチェック修正 (close:2020/02/21 03:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/578
+   - fix:入荷取得API性能改善対応 (close:2020/02/20 07:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/577
+   - Develop (close:2020/02/20 03:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/576
+   - bugfix: EDION出荷指示で代引きのみ荷主と運送会社のチェックを行うよう修正 (close:2020/02/20 03:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/575
+   - fix: 配送キャパ引当モジュール最新化_0.0.10 (close:2020/02/20 03:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/574
+   - Develop (close:2020/02/20 02:35)
+     - https://github.com/ardito-jp/sb-scm-api/pull/573
+   - 各環境へのログ出力制御追加 (close:2020/02/20 02:11)
+     - https://github.com/ardito-jp/sb-scm-api/pull/572
+   - Develop (close:2020/02/20 11:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/571
+   - fix: 出荷指示API_システムテストバグの横展開修正_のし、ギフトのバリデーションを修正 (close:2020/02/20 11:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/570
+   - Develop (close:2020/02/20 11:11)
+     - https://github.com/ardito-jp/sb-scm-api/pull/569
+   - 外部向けAPIのレスポンスのnull項目にキーが存在するよう修正 (close:2020/02/20 10:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/568
+   - Fix/logi 4401 商品取得API修正 (close:2020/02/20 09:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/567
+   - Develop (close:2020/02/19 07:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/566
+   - ログ性能関連対応／ユーザー請求送料設定追加 (close:2020/02/19 08:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/565
+   - Fix:LOGI-4171 のし、ギフトの場合に箱番号が設定されない (close:2020/02/20 09:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/564
+   - Develop (close:2020/02/19 06:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/563
+   - nfr環境へのデプロイ対象Functionを追加 (close:2020/02/19 06:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/562
+   - bugfix: 出荷指示API(EDION)、(荷主基幹/TP)_システムテストバグ修正_のし、ギフトのチェックを修正 (close:2020/02/19 06:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/561
+   - マスタ取得AIPI（カテゴリID:1 商品）修正 (close:2020/02/20 09:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/560
+   - Develop (close:2020/02/19 10:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/559
+   - Develop (close:2020/02/18 08:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/558
+   - fix: 配送キャパ引当モジュール_最新化(0.0.9) (close:2020/02/18 05:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/557
+   - 配送キャパ引当、解除モジュールをスタブからモジュールに修正 (#555) (close:2020/02/18 11:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/556
+   - 配送キャパ引当、解除モジュールをスタブからモジュールに修正 (close:2020/02/18 11:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/555
+   - Develop (close:2020/02/17 08:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/554
+   - bugfix/LOGI-4365_入荷予定登録/変更で明細の商品がない場合、400エラーを返す (close:2020/02/17 07:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/553
+   - 性能検証の細分化のためのログ出力追加 (close:2020/02/17 07:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/552
+   - 長文ログ出力制限、性能測定ツールの実行時間差分出力追加 (close:2020/02/17 05:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/551
+   - fix: 出荷指示APIの荷主出荷指示明細No採番修正、出荷指示API、出荷指示API(EDION)、出荷指示API(荷主基幹/TP)の同梱品の取得を修正 (close:2020/02/17 06:59)
+     - https://github.com/ardito-jp/sb-scm-api/pull/550
+   - ログレベルの変更(Info→Trace) (close:2020/02/17 12:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/549
+   - デプロイパッケージ作成スクリプトの修正 (close:2020/02/14 07:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/548
+   - DBコネクションプールの設定を変更 (close:2020/02/14 07:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/547
+   - Develop (close:2020/02/14 06:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/546
+   - 削除の場合でもWMS連携フラグを未連携に戻す (close:2020/02/14 06:13)
+     - https://github.com/ardito-jp/sb-scm-api/pull/545
+   - デプロイパッケージ作成スクリプトの修正 (close:2020/02/14 05:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/544
+   - Develop (close:2020/02/14 05:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/543
+   - fix: モールコードがnullの場合を許容する対応 (close:2020/02/14 05:35)
+     - https://github.com/ardito-jp/sb-scm-api/pull/541
+   - fix:LOGI-4345_EDION商品変更で、在庫管理方法のみの変更でもWMS送信済みフラグを「0:未連携」に更新/LOGI-4357_ステータス変更伝票Noの自動採番見直し (close:2020/02/14 02:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/540
+   - Develop_merge (close:2020/02/13 07:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/538
+   - データリミット修正 (close:2020/02/13 06:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/537
+   - EDION入荷業務終了で在庫がない場合insertしないよう変更 (close:2020/02/13 05:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/536
+   - fix: モールコードは必須でないため外部結合に変更 (close:2020/02/13 07:22)
+     - https://github.com/ardito-jp/sb-scm-api/pull/535
+   - fix: マスタ取得API/在庫状況取得API 在庫ステータス0:棚入中のリクエスト/レスポンス制御を修正 (close:2020/02/14 09:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/534
+   - 実績再送フラグリセット時に更新者等が更新されない件対応 (close:2020/02/13 11:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/533
+   - LOGI-4171 のし、ギフトの場合に箱番号が設定されない (close:2020/02/13 11:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/532
+   - レスポンスが一部出力されない不具合改修 (close:2020/02/13 11:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/531
+   - Develop (close:2020/02/12 05:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/530
+   - STバグ対応。入庫取得で入荷予定、明細の削除フラグを見ているため取り消した実績が返却されない (close:2020/02/12 05:35)
+     - https://github.com/ardito-jp/sb-scm-api/pull/529
+   - fix:LOGI-4333_実績出荷箱サイズの区分値追加/LOGI-4342_yahoo関連テーブル、関連ソースの削除 (close:2020/02/13 11:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/528
+   - fix: 出荷指示API(EDION)_横展開修正漏れ修正(商品取得方法修正) (close:2020/02/12 02:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/527
+   - fix: 出荷一括指示API 流通加工品を付属させた場合に通常品と同様の存在チェックがされる不具合を修正 (#517) (close:2020/02/12 10:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/526
+   - 非機能環境（セキュリティテスト向け）の設定追加と環境構築スクリプトの修正 (close:2020/02/10 04:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/525
+   - fix: ユーザー請求送料一括登録API 重複チェックエラーメッセージのTODO対応 (close:2020/02/12 09:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/524
+   - AES暗号化APIの配列化対応（内部利用APIの作成） (close:2020/02/10 10:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/523
+   - Develop (close:2020/02/07 05:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/522
+   - fix:LOGI_4273_WMSxxNoの型桁数変更 (close:2020/02/07 02:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/521
+   - Develop_merge (close:2020/02/07 02:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/520
+   - ログ出力禁止項目追加 (close:2020/02/07 11:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/519
+   - fix: 荷主SKUコードの桁数拡張(20桁→99桁) (close:2020/02/07 12:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/518
+   - fix: 出荷一括指示API 流通加工品を付属させた場合に通常品と同様の存在チェックがされる不具合を修正 (close:2020/02/12 10:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/517
+   - EDION入庫取得APIクエリパラメータに荷主コードの必須を追加 (close:2020/02/06 03:22)
+     - https://github.com/ardito-jp/sb-scm-api/pull/516
+   - YahooEmail削除／リダイレクトURLを出荷照会に変更 (close:2020/02/07 04:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/515
+   - Fix JOB005 引当済数 is NULL or 出荷指示数量 > 引当済数  (close:2020/02/07 06:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/514
+   - fix:LOGI-4113_出荷荷姿区分から3.ピース/ケース品削除。入数/JANコード２/ITFコードの条件必須チェックを削除。JANコード１を必須に変更 (close:2020/02/06 04:43)
+     - https://github.com/ardito-jp/sb-scm-api/pull/513
+   - スタッフログイン時にアプリケーションID設定 (close:2020/02/05 08:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/512
+   - Yahoo連携IDトークン取得API アプリケーションID、シークレット追加 (close:2020/02/05 04:15)
+     - https://github.com/ardito-jp/sb-scm-api/pull/511
+   - EDION商品更新のWMS連携フラグ対応 (close:2020/02/05 03:11)
+     - https://github.com/ardito-jp/sb-scm-api/pull/510
+   - Develop (close:2020/02/05 02:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/509
+   - 荷主基幹向けAPIのWMS送信フラグ更新対応 (close:2020/02/05 02:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/508
+   - 環境変数の修正 (close:2020/02/05 12:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/507
+   - STバグ対応。商品更新時のWMS送信フラグ更新条件を主フラグ更新条件を修正 (#505) (close:2020/02/05 12:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/506
+   - STバグ対応。商品更新時のWMS送信フラグ更新条件を主フラグ更新条件を修正 (close:2020/02/05 12:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/505
+   - chore: ST環境にSENDGRIDのAPIキーを追加 (#502) (close:2020/02/04 03:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/504
+   - 性能検証関連対応(ログ出力の修正／ツールの作成) (close:2020/02/05 07:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/503
+   - ST環境にSENDGRIDのAPIキーを追加 (close:2020/02/04 03:13)
+     - https://github.com/ardito-jp/sb-scm-api/pull/502
+   - Develop (close:2020/02/03 05:44)
+     - https://github.com/ardito-jp/sb-scm-api/pull/501
+   - 半角項目は半角スペースを許容するよう変更 (close:2020/02/03 05:43)
+     - https://github.com/ardito-jp/sb-scm-api/pull/500
+   - Feature/functions deploy (close:2020/02/03 04:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/499
+   - API076 商品取得API(EDION)API086 商品取得API(荷主基幹/TP)API091 在庫ステータス変更取得API(荷主基… (close:2020/02/03 04:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/498
+   - Fix/LOGI-4112_運送会社送り状No型修正 (close:2020/02/03 02:03)
+     - https://github.com/ardito-jp/sb-scm-api/pull/497
+   - 複合一意キー適用漏れ追加。WMS入荷・入庫伝票Noの型変更 (close:2020/02/03 10:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/496
+   - Feature/ar 53 55 (close:2020/01/31 10:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/495
+   - Feature/azure nfr (close:2020/01/30 09:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/494
+   - ST環境の設定ファイル (close:2020/01/30 09:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/493
+   - fix: APIのエラーログ出力を修正 (close:2020/01/31 02:11)
+     - https://github.com/ardito-jp/sb-scm-api/pull/492
+   - Develop (close:2020/01/30 06:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/491
+   - fix: ユーザー請求送料一括登録API 有効開始日検索修正(コミット漏れ) (close:2020/01/30 06:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/490
+   - Develop (close:2020/01/30 06:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/489
+   - 非機能環境構築用のツールの修正と設定ファイルの作成 (close:2020/01/30 06:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/488
+   - fix: ユーザー請求送料 世代削除APIを物理削除に変更修正および一括登録世代検索の有効開始日処理を修正 (close:2020/01/30 06:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/487
+   - fix: システムの場合、登録者、更新者が出力されない不具合改修 (#485) (close:2020/01/30 04:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/486
+   - fix システムの場合、登録者、更新者が出力されない不具合改修 (close:2020/01/29 05:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/485
+   - Develop (close:2020/01/29 04:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/484
+   - Fix/LOGI_4234_環境変数名変更 (close:2020/01/30 06:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/483
+
+ # sb-scm-api
+   - 商品系API lint対応 エラー対応 (close:2019/11/18 05:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/82
+   - 不要なファイルの削除 (close:2019/11/18 04:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/81
+   - API011 商品登録API 単体試験バグ (close:2019/11/18 04:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/80
+   - 入荷取得API バリデーションチェック・レスポンス誤り対応(LOGI-3174) (close:2019/11/18 02:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/79
+   - レスポンス生成処理の引数追加対応漏れ (close:2019/11/18 02:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/78
+   - [API096] コードマスタテーブルからレコードが取得できない対応 (close:2019/11/18 12:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/77
+   - Feature/integration check (close:2019/11/18 11:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/76
+   - 不要await削除対応／メッセージ最新化追加対応 (close:2019/11/18 12:03)
+     - https://github.com/ardito-jp/sb-scm-api/pull/74
+   - ログ出力対応／メッセージ最新化対応 (close:2019/11/18 10:35)
+     - https://github.com/ardito-jp/sb-scm-api/pull/72
+   - API093 在庫調整取得API(荷主基幹／TP) feature/inventoryAdjustmentMerchantTpFunctions (close:2019/11/18 02:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/71
+   - 単体試験用認証情報の設定処理 (close:2019/11/15 05:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/70
+   - AESの暗号化と復号化の処理を作成 (close:2019/11/14 05:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/68
+   - 提供品一括登録API feature/attachments_csv (close:2019/11/18 03:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/67
+   - 在庫調整取得API feature/inventoryAdjustmentFunctions (close:2019/11/14 06:01)
+     - https://github.com/ardito-jp/sb-scm-api/pull/66
+   - API027 在庫状況取得API  /feature/inventoryGetStockListFunctions _CDレビュー指摘対応 (close:2019/11/14 08:13)
+     - https://github.com/ardito-jp/sb-scm-api/pull/65
+   - 上限超過エラーを連続して返却した際レスポンス形式が不正になる件対応 (close:2019/11/14 09:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/64
+   - API029 在庫ステータス変更取得API　feature/inventoryStatusChangeGet (close:2019/11/14 07:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/63
+   - 認可処理、荷主基幹・TP／EDIONレスポンス処理の修正 feature/warehousings (close:2019/11/14 05:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/62
+   - 入荷取得API Feature/asn (close:2019/11/14 05:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/61
+   - Fix/inventory status change tp get (close:2019/11/13 06:18)
+     - https://github.com/ardito-jp/sb-scm-api/pull/60
+   - Feature/master (close:2019/11/15 08:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/59
+   - 日付関連処理の修正 (close:2019/11/13 01:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/58
+   - 内部疎通確認用の暫定ログイン作成 (close:2019/11/13 11:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/57
+   - Develop (close:2019/11/12 05:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/56
+   - 在庫調整取得API feature/inventoryAdjustmentFunctions (close:2019/11/12 04:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/53
+   - API092 在庫ステータス変更指示API(荷主基幹/TP)　feature/inventoryStatusChangeTpPost (close:2019/11/19 05:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/52
+   - 提供品取得API feature/attachment (close:2019/11/11 09:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/49
+   - Model修正(#40、#43)に伴う変更対応 Feature/warehousings (close:2019/11/11 12:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/48
+   - 検索条件にステータスの指定を追加。modelの変更対応 (close:2019/11/11 12:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/47
+   - API077 商品登録／更新API(EDION) (close:2019/11/11 09:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/46
+   - API087 商品登録／更新API(荷主基幹／TP) (close:2019/11/11 09:25)
+     - https://github.com/ardito-jp/sb-scm-api/pull/45
+   - isMultipleに変更 (close:2019/11/11 10:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/44
+   - mysqlModelsのmodelNameを全てローワーキャメルに修正 (close:2019/11/08 08:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/43
+   - 日付レスポンス対応 feature/dateUtil (close:2019/11/08 05:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/41
+   -  更新者更新処理修正対応 feature/updateBy (close:2019/11/08 07:12)
+     - https://github.com/ardito-jp/sb-scm-api/pull/40
+   - Feature/inventory status change tp get (close:2019/11/08 02:52)
+     - https://github.com/ardito-jp/sb-scm-api/pull/39
+   - fix: バリデーションチェック 最大値/最小値 分岐条件修正 (close:2019/11/07 12:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/38
+   - SP7_LaaS_SCM01_BD-02-0.947_DB設計.xlsx から生成 Feature/mysql models3 (close:2019/11/07 11:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/37
+   - 適切なRequestFilterに変更 (close:2019/11/06 08:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/36
+   - 認可処理 荷主のパスパラメータチェック追加、IPアドレス範囲判定修正 feature/authorize (close:2019/11/08 02:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/35
+   - 入庫取得API(荷主基幹・TP／EDION) Feature/warehousings (close:2019/11/06 06:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/33
+   - DB接続情報をSRWからSCMに変更 (close:2019/11/01 02:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/32
+   - 在庫ステータス変更取得API　Feature/inventoryStatusChange (close:2019/11/11 12:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/31
+   - 提供品取得API Feature/attachments (close:2019/11/06 06:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/29
+   - 認可処理　feature/requestFilter (close:2019/11/05 03:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/28
+   - アルディートAzure向けのDB接続先を修正 (close:2019/10/11 04:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/24
+   - Feature/products (close:2019/11/08 04:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/23
+   - Feature/mysql models (close:2019/10/09 08:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/21
+   - コネクションプールの設定を変更 (close:2019/10/09 06:11)
+     - https://github.com/ardito-jp/sb-scm-api/pull/20
+   - params.tsの共通的な項目を変数名にしてそれぞれのクラスで呼ぶように修正 (close:2019/10/09 06:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/19
+   - ツールでmysqlModelsを生成 (close:2019/10/09 08:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/18
+   - バリデーションを修正（配列） (close:2019/10/08 12:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/17
+   - importのsort (close:2019/10/08 06:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/16
+   - エラーレスポンスの共通化 (close:2019/10/03 09:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/15
+   - logUtilでaudienceのidとuserTypeを別々に渡さずaudienceを渡すよう変更 (close:2019/10/03 09:13)
+     - https://github.com/ardito-jp/sb-scm-api/pull/14
+   - logUtilでaudienceのidとuserTypeを別々に渡さずaudienceを渡すよう変更 (close:2019/10/03 04:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/13
+   - Feature/variable (close:2019/10/03 04:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/12
+   - 作成日、更新日のパラメータ設定を変更 (close:2019/10/03 04:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/11
+   - 半角記号の利用可能文字変更 (close:2019/10/03 03:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/10
+   - 設定ファイルの整理（環境変数の整理） (close:2019/10/02 02:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/9
+   - package.jsonの修正（マイナーバージョンのアップデートは追従するよう修正、nameの修正、descriptionとkeyword… (close:2019/10/02 12:20)
+     - https://github.com/ardito-jp/sb-scm-api/pull/8
+   - Feature/exclude logs (close:2019/10/02 11:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/7
+   - Feature/db access log (close:2019/10/01 06:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/6
+   - GitHub actions slack notify (close:2019/10/01 02:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/5
+   - GitHub actions (close:2019/09/30 05:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/4
+   - Feature/notifications (close:2019/09/18 07:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/1
+
+ # sb-scm-api
+   - fix:エラーメッセージリスト_LOGI3557対応 (close:2020/01/14 11:20)
+     - https://github.com/ardito-jp/sb-scm-api/pull/382
+   - Develop (close:2020/01/10 06:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/381
+   - fix: tsconfgのパスエイリアスを削除 (close:2020/01/10 06:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/380
+   - LOGI-3957、ロット賞味期限指定区分設定修正対応 (close:2020/01/14 11:13)
+     - https://github.com/ardito-jp/sb-scm-api/pull/379
+   - feat: 出荷指示API(EDION)_業務チェック、エラー処理実装 (close:2020/01/10 06:34)
+     - https://github.com/ardito-jp/sb-scm-api/pull/378
+   - fix: 出荷取得API レスポンスに出荷実績IDが含まれていない不具合を修正 (close:2020/01/10 06:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/377
+   - Fix/crypt value (close:2020/01/10 05:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/376
+   - Develop (close:2020/01/10 02:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/375
+   - 入荷予定明細に仕入単価を追加。登録・更新・取得API対応 (close:2020/01/10 01:56)
+     - https://github.com/ardito-jp/sb-scm-api/pull/374
+   - Develop (close:2020/01/09 04:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/373
+   - マスタ取得APIユーザー請求送料世代でECSストアIDを返却追加 (close:2020/01/10 01:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/372
+   - fix: 出荷指示API 倉庫ID未設定時の処理を追加および存在チェック後後続処理が実行される不具合を修正 (close:2020/01/10 01:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/371
+   - Feature/logi 3126 (close:2020/01/10 01:50)
+     - https://github.com/ardito-jp/sb-scm-api/pull/370
+   - fix: 在庫確認/引当モジュール_修正モジュール配置(0.1.2) (close:2020/01/09 11:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/369
+   - Develop (close:2020/01/09 10:13)
+     - https://github.com/ardito-jp/sb-scm-api/pull/368
+   - fix: 出荷取得API レスポンスの明細データに出荷明細IDが含まれていない不具合を修正 (close:2020/01/09 04:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/367
+   - fix: 在庫ステータス変更取得API リクエストパラメータの商品IDを荷主SKUコードに変更修正 (close:2020/01/08 07:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/366
+   - fix: 出荷指示API 倉庫IDのデフォルト値が設定されていない不具合を修正 (close:2020/01/08 07:45)
+     - https://github.com/ardito-jp/sb-scm-api/pull/365
+   - 引当明細に関するバリデーションチェック追加、出荷指示APIとのバリデーション統一 (close:2020/01/08 06:42)
+     - https://github.com/ardito-jp/sb-scm-api/pull/364
+   - Develop (close:2020/01/08 06:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/363
+   - feat: 出荷指示API(EDION)_登録系実装 (close:2020/01/08 06:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/362
+   - Fix/large product identify flag (close:2020/01/08 05:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/361
+   - feature:API101_ユーザー請求送料世代削除新規作成 (close:2020/01/08 07:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/360
+   - 商品テーブルに大型商品識別フラグを追加。商品取得APIの返却値にも追加 (close:2020/01/08 02:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/359
+   - Develop (close:2020/01/08 01:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/358
+   - fix: ddlファイル名変更 (close:2020/01/08 01:51)
+     - https://github.com/ardito-jp/sb-scm-api/pull/357
+   - fix: 在庫ステータス変更取得API レスポンスに倉庫名称が不足している不具合を修正および不要項目の削除、DDL追加 (close:2020/01/08 01:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/356
+   - fix: 在庫ステータス変更取得API リクエスト「ステータス」を複数選択できるよう修正およびリクエストをAPI設計書に合わせて修正 (#… (close:2020/01/08 11:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/355
+   - LOGI-3898顧客コードの桁数拡張対応 (close:2020/01/08 11:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/354
+   - fix: 在庫ステータス変更取得API リクエスト「ステータス」を複数選択できるよう修正およびリクエストをAPI設計書に合わせて修正 (close:2020/01/08 11:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/353
+   - Develop (close:2020/01/08 10:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/352
+   - Develop (close:2020/01/08 10:10)
+     - https://github.com/ardito-jp/sb-scm-api/pull/351
+   - Fix/edion tp validator (close:2020/01/08 11:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/350
+   - API043_出荷一括指示API 単体試験不具合対応 (close:2020/01/08 11:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/349
+   - fix/エラーメッセージ見直し、修正(API001~API070までで修正対象分) (close:2020/01/07 07:17)
+     - https://github.com/ardito-jp/sb-scm-api/pull/348
+   - fix: 在庫ステータス取得API 日付検索で日付がずれる不具合を修正 (close:2020/01/07 07:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/347
+   - 外部結合試験バグ修正。TODO荷主基幹TP・EDION向けAPI全てに同様の対応を行う (close:2020/01/07 03:41)
+     - https://github.com/ardito-jp/sb-scm-api/pull/346
+   - Develop (close:2020/01/07 01:40)
+     - https://github.com/ardito-jp/sb-scm-api/pull/345
+   - LOGI-3161 API010 商品一括登録API バリデーション修正 (close:2020/01/07 11:14)
+     - https://github.com/ardito-jp/sb-scm-api/pull/344
+   - Develop (close:2020/01/07 09:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/343
+   - Develop (close:2020/01/06 07:46)
+     - https://github.com/ardito-jp/sb-scm-api/pull/342
+   - fix: 制御項目とAPIテーブル取得時に論理削除されたデータを取得できてしまう不具合を修正 (close:2020/01/06 07:36)
+     - https://github.com/ardito-jp/sb-scm-api/pull/341
+   - 追加要件対応。LOGI-3896 (close:2020/01/07 11:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/340
+   - fix: 在庫調整取得API WMS調整伝票明細Noがレスポンスに含まれていない不具合を修正 (close:2020/01/07 10:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/339
+   - Develop (close:2020/01/06 04:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/338
+   - bugfix: 出荷指示API_バグ修正_在庫引当/キャパ引当修正 (close:2020/01/06 04:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/337
+   - パスワード再発行API修正 (close:2020/01/07 11:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/336
+   - fix: 在庫ステータス取得API 在庫ステータス変更指示実績の必須結合を任意に修正 (close:2020/01/06 04:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/335
+   - API074 出荷指示(EDION) feature/shipmentEdionPut (close:2020/01/06 06:43)
+     - https://github.com/ardito-jp/sb-scm-api/pull/334
+   - API095 出荷指示API(荷主基幹/TP) feature/shipmentMerchantTpPut (close:2020/01/06 06:19)
+     - https://github.com/ardito-jp/sb-scm-api/pull/333
+   - LOGI-3886 【191031WMS要望】商品マスタ送信（WMS）の項目追加 (close:2020/01/06 03:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/332
+   - bugfix/LOGI_3884 荷主基幹/TP送信日時_データ形式修正 (close:2020/01/06 03:07)
+     - https://github.com/ardito-jp/sb-scm-api/pull/331
+   - 出荷指示API_バグ修正_登録処理修正 (close:2019/12/27 03:00)
+     - https://github.com/ardito-jp/sb-scm-api/pull/330
+   - Develop_merge (close:2019/12/27 11:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/329
+   - 出荷一括指示API 修正対応 (close:2019/12/27 02:58)
+     - https://github.com/ardito-jp/sb-scm-api/pull/328
+   - feat: JOB005 バックオーダー引当JOB実装 (close:2020/01/16 05:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/327
+   - Develop (close:2019/12/26 07:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/326
+   - 出荷指示API_実装中_残り配送キャパ引当、バリデーション、エラー処理 (close:2019/12/27 11:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/325
+   - fix: 在庫ステータス変更指示API エラー時の処理を修正 (close:2019/12/26 06:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/324
+   - fix: 在庫ステータス変更指示API エラーメッセージが不正および引当リクエストが不正の不具合を修正 (close:2019/12/26 05:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/323
+   - 複数選択時の区切り文字をタブに変更 (close:2019/12/26 06:31)
+     - https://github.com/ardito-jp/sb-scm-api/pull/322
+   - EDION商品登録の場合、流通加工区分7,8も許容するよう修正 (close:2019/12/26 05:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/321
+   - fix: API040 出荷取得API mysqlModel修正 (close:2019/12/26 05:02)
+     - https://github.com/ardito-jp/sb-scm-api/pull/320
+   - LOGI-3559 【エラーメッセージリスト対応】API070_提供品一括登録API (close:2019/12/26 04:23)
+     - https://github.com/ardito-jp/sb-scm-api/pull/319
+   - API自動テスト-DMLファイル変更等 (close:2020/01/21 12:44)
+     - https://github.com/ardito-jp/sb-scm-api/pull/318
+   - 出荷一括指示API 製造対応 (close:2019/12/26 03:24)
+     - https://github.com/ardito-jp/sb-scm-api/pull/317
+   - LOGI-3559 【エラーメッセージリスト対応】API070_提供品一括登録API (close:2019/12/26 02:55)
+     - https://github.com/ardito-jp/sb-scm-api/pull/316
+   - Develop (close:2019/12/26 09:48)
+     - https://github.com/ardito-jp/sb-scm-api/pull/315
+   - LOGI-3305 商品名の「部分一致」検索について (close:2019/12/26 11:26)
+     - https://github.com/ardito-jp/sb-scm-api/pull/314
+   - chore: shipping_carrier.idの型をintに修正 (close:2019/12/25 07:15)
+     - https://github.com/ardito-jp/sb-scm-api/pull/313
+   - fix: 市区町村コード桁数を5桁に戻す (close:2019/12/25 05:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/312
+   - 配送キャパ引当成功時DB更新処理を修正 (close:2019/12/25 06:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/311
+   - 行指定、項目指定がなしの場合のエラーを統一 (close:2020/01/30 06:28)
+     - https://github.com/ardito-jp/sb-scm-api/pull/310
+   - LOGI-3559 【エラーメッセージリスト対応】API070_提供品一括登録API (close:2019/12/26 11:08)
+     - https://github.com/ardito-jp/sb-scm-api/pull/309
+   - 出荷一括指示API 修正適用 (close:2019/12/25 01:39)
+     - https://github.com/ardito-jp/sb-scm-api/pull/307
+   - Chore/output npm module version (close:2019/12/25 01:53)
+     - https://github.com/ardito-jp/sb-scm-api/pull/306
+   - bugfix:LOGI-3808_在庫照会_在庫と提供品の登録者、更新者の取得処理修正 (close:2019/12/25 02:06)
+     - https://github.com/ardito-jp/sb-scm-api/pull/304
+   - API自動テスト追加 (close:2019/12/26 12:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/303
+   - fix: API044出荷指示API 提供品数量修正 bugfix/shipment_post_attachment (close:2019/12/24 05:35)
+     - https://github.com/ardito-jp/sb-scm-api/pull/302
+   - fix: 在庫状況取得API 在庫IDで検索できるよう修正 (close:2019/12/24 01:29)
+     - https://github.com/ardito-jp/sb-scm-api/pull/301
+   - bugfix API047 ユーザー請求送料一括登録API (close:2019/12/24 01:27)
+     - https://github.com/ardito-jp/sb-scm-api/pull/300
+   - fix:API044 出荷指示API 提供品関連修正 (close:2019/12/24 11:57)
+     - https://github.com/ardito-jp/sb-scm-api/pull/299
+   - 市区町村コード桁数変更DDL (close:2019/12/23 06:30)
+     - https://github.com/ardito-jp/sb-scm-api/pull/298
+   - fix:API044 出荷指示API 出荷確定更新修正 bugfix/shipment_post_update (close:2019/12/23 04:54)
+     - https://github.com/ardito-jp/sb-scm-api/pull/297
+   - 出荷指示API_キャパ引当をスタブとして登録できるように修正 (close:2019/12/23 01:47)
+     - https://github.com/ardito-jp/sb-scm-api/pull/295
+   - 項目、区分値の論理名を変更 (close:2019/12/23 10:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/294
+   - LOGI-3725 [シナリオ外] 提供品一括登録 処理内でエラーが発生した場合アップロード履歴にエラーメッセージを吐かない (close:2019/12/23 09:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/293
+   - bugfix: 出荷指示API_出荷明細テーブル登録を修正 (close:2019/12/20 03:38)
+     - https://github.com/ardito-jp/sb-scm-api/pull/292
+   - fix: csvをパースするとき、#をコメントとしないように修正 (close:2019/12/20 03:04)
+     - https://github.com/ardito-jp/sb-scm-api/pull/291
+   - Fix:API098_業務終了用API_設計書レビュー指摘に伴う修正 (close:2019/12/25 02:21)
+     - https://github.com/ardito-jp/sb-scm-api/pull/290
+   - bugfix: API044 出荷指示API bugfix/shipment_post_validator (close:2019/12/20 02:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/289
+   - 内外結合環境のwebUrlをストレージに変更 (close:2019/12/20 02:32)
+     - https://github.com/ardito-jp/sb-scm-api/pull/288
+   - bugfix: おまとめ出荷テーブル、出荷テーブルの登録値を修正 (close:2019/12/19 07:09)
+     - https://github.com/ardito-jp/sb-scm-api/pull/287
+   - Develop (close:2019/12/19 02:05)
+     - https://github.com/ardito-jp/sb-scm-api/pull/286
+   - Feature/backorder allocation scheduler (close:2019/12/25 02:16)
+     - https://github.com/ardito-jp/sb-scm-api/pull/285
+   - fix: おまとめ出荷テーブル「顧客コード」のNOT NULL制約を解除 (close:2019/12/19 12:37)
+     - https://github.com/ardito-jp/sb-scm-api/pull/284
+   - 入荷予定ユニークキー対応 (close:2019/12/19 12:33)
+     - https://github.com/ardito-jp/sb-scm-api/pull/283
+
